@@ -1,0 +1,15 @@
+<web>
+	<factory>SummFactory</factory>
+	<seed>
+		<ip>http://www.summall.com/search?key=%E6%99%BA%E8%83%BD%E6%89%8B%E6%9C%BA&get=1</ip>
+	</seed>
+
+	<visitgroup>
+		<visit>
+			.htm
+		</visit>
+		<visit>
+			http://www.langlang.cc/Cosmetic.aspx?cat=22.01&orderby=0&pageno=
+		</visit>
+	</visitgroup>
+</web>

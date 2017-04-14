@@ -1,0 +1,15 @@
+<web>
+	<factory>service.LangFactory</factory>
+	<seed>
+		<ip>http://www.langlang.cc/Cosmetic.aspx?cat=22.01&amp;orderby=0&amp;pageno=1&amp;attr=jixing%3d%2cchicun%3d</ip>
+	</seed>
+
+	<visitgroup>
+		<visit>
+			^(http://www.langlang.cc/)[0-9]*(.htm)
+		</visit>
+		<visit>
+			^(http://www.langlang.cc/cosmetic.aspx\?cat=22.01&amp;orderby=0&amp;pageno=)[0-9]*(&amp;)(\w|\W)*
+		</visit>
+	</visitgroup>
+</web>
